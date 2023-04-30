@@ -1,0 +1,32 @@
+
+
+jour 1
+
+On a commence par lire le cahiet des charges. Apres l'avoir analisé on a commence par faire le programme qui lance le ficher audio de presentation on a utilise un eboucle while pour repondre aux critaires.
+Puis on a commence par faire l'affichage de la grille , on a utilisé un tableau a deux dimension et des boucle for pour l'afficher des zero a des couleur different on a rencontre des problemes d'affichage quand on avait plus de 9 colognes car les nombre des colognne revienne a deux chiffre , on a resussit a resudre ce probleme en rajoutant des conditions pour l'affichage avec plus ou moins d'espace .
+Et un autre probleme d'affichage car on avait oublié d'inclure un \n .
+
+jour 2
+
+Ensuite on a fait la saise et la detection de la puissance 4 en meme temp chaqu'un de son cote .
+La saise etait evidament situe dans une boucle while pour detecter les erreurs on a rencontré plusieurs erreurs  si on sesisait des lettre ou des nombre trop grand. Pour remedier ce probleme on a efface la memoire tampon et on a rencontre un probleme d'affichage sur la derniere colonne si on sesisait 0 donc recomensait la saisie si on recupere 0.
+Nous avons ensuite code la fonction qui test si 4 ou plus pions sont alignié , on a rencontre beaucoup de probleme a le faire oon s'ait dit de fire 4 test :horizontal ,vertical, diagonale comensat a gouche et diagonale ver la droite.On decide d'utiliser deux boucle for pour la detection , le premeier essaye etait en fesant des test d'egalité entre un index et index+1 mais sa c'est montré unfructueux
+puis on a decider de rajouter une boucle for pour tester les pesseces 4 par quatre, avec cette methode on a reussit de faire marcher le test horizontal.
+
+
+jour 3
+La detection verticale est dans la meme forme que la detection horizontala , mais il y a un bug dans la premiere ligne avec le joueur 1 si il aligne 3 pion a la verticale qu'on a regle en changeant le compte de combien de pion identique il se trouvait.
+On a fait la detection diagonale dans les deux senses en jouant avec iBcly et iBclx plus ou moin on a aussi optimise qu'in aie pas jusqu'au bout car il y a pas de puissance 4 posible 
+
+
+Qunad on a essaye d'integrer le bot dans la boucle du jeu , un a eu un probleme d'affichage sur la derniere case tout en bas ca changait de couleur a chauque fois qu'on jouet 
+donc pour remedier vu que c'etait un probleme de memoire quelque chose venait cahnger la valeur dans l'emplacement memeoire on a declare le tableau avec 4 lignes et 4 colognne en plus.
+On a commencer a coder le bot , on a fini le placement horizontal.
+
+On a rendu le bot plus capable de detecter si 3 pion sont alignie horizontalement et le faire jouer le bon coup .On a rendu l'ia plus inteligente avec le meme systeme qu'on a utilise pour detecter si il y a un puissance 4 on a rajoute des condition pour que le bot pose une piesse si 3 pion sont alignie, il recher la quelle vaut 0 et il joue sur la colognne de du zero .
+
+On a mis en place les menu et l'interface utilisateur du mode normal: 2 jouers ou joueur vs robot. Et l'interface graphique du mode custom ou on peut jouer jusqu'a 20 joueur ou 1 jouer et jusqu'a 20 bot et faire varier la taille de la grille.
+
+Jour 4 (jour final) 
+
+on a rejoute while (getchar() != '\n'); apres chaque saisie pour les securiser 

@@ -1,0 +1,3 @@
+﻿  PrjInfo2022.cpp
+C:\Users\Patrick\Desktop\Patrick Kosa-Ivasca et Victor Tabounchicoff Puissance 4\PrjInfo2022.cpp(310,6): warning C4101: 'l_int_valeurAvant' : variable locale non référencée
+  PrjInfo2022.vcxproj -> C:\Users\Patrick\Desktop\Patrick Kosa-Ivasca et Victor Tabounchicoff Puissance 4\x64\Debug\PrjInfo2022.exe
