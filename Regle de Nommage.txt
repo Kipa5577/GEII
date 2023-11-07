@@ -31,11 +31,13 @@ Commentaire standard de fonction:
 @Createur:(ton nom)
 @date: (dernier changement)
 @Description (utilité et context
-d'utilisation)
+d'utilisation ça veut aussi dirre configuration des pin )
+@Parametre0 (description des parametre d'entrée)
+@Paramètre1 
 @
 @Test:
 @Type: (type de test réalisé pour la valider théorique ou Materiel)
-@Materiel:(Materiel sur lequel ce test a été réalisé avec succès , ce la comprend les composants autre que microcontroller auquel ex contrôleur moteur lecteur carte RFID ect...)
+@Materiel:(Materiel sur lequel ce test a été réalisé avec succès , ce la comprend les composants autre que microcontroller auquel ex contrôleur moteur lecteur carte RFID ect... paramétrage des registre si cela avait de l'importance et description du câblage)
 @Validite:(Si la function a été validée par les test true ou false)
 @Validateur:(Nom de la ou des personnes qui on validé la fonction)
 @Fichier: (chemin du fichier de test pour cette fonction)
