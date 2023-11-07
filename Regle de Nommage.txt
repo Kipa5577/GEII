@@ -4,7 +4,7 @@ Regle générale :
 accessibilité_type_nomDescriptif
 ex:l_bool_validiteCarteRfid
 Pareil pour les structures mise en jeu 
-ex:l_dateTime_heureActuelle
+ex:l_SdateTime_heureActuelle
 
 -Les classe se retrouve nommé avec le préfixe C 
 ex:CPorrique
