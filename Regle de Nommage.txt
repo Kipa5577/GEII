@@ -1,10 +1,12 @@
 Regle générale :
 
-- les variables se nomme de la forme 
+- Les variables se nomme de la forme 
 accessibilité_type_nomDescriptif
 ex:l_bool_validiteCarteRfid
 Pareil pour les structures mise en jeu 
 ex:l_SdateTime_heureActuelle
+Exeption pour les compteur qui se nomme de la forme iBcl_nomDescriptif(optionnel)
+ex:iBcl
 
 -Les classe se retrouve nommé avec le préfixe C 
 ex:CPorrique
@@ -25,7 +27,6 @@ g si la variable est globale à l'ensemble du project
 
 
 Commentaire standard de fonction:
-
 /*************************
 @Createur:(ton nom)
 @date: (dernier changement)
