@@ -1,0 +1,42 @@
+Regle générale :
+
+- les variables se nomme de la forme 
+accessibilité_type_nomDescriptif
+ex:l_bool_validiteCarteRfid
+Pareil pour les structures mise en jeu 
+ex:l_dateTime_heureActuelle
+
+-Les classe se retrouve nommé avec le préfixe C 
+ex:CPorrique
+
+-Les structure se retrouve nommé avec le préfixe S
+ex:SInfrastructure
+
+-Les tableaux se nomme de la forme
+accessibilité_tabDimenssionType_nomDescriptif
+ex: l_tab1Int_nombreArbitraire
+
+-L'accesibilité peut être:
+l si la variable est locale à la structure de code 
+m si la variable fait partie d'une structure ou classe 
+x si la variable est en paramètre d'une fonction
+g si la variable est globale à l'ensemble du project
+
+
+
+Commentaire standard de fonction:
+
+/*************************
+@Createur:(ton nom)
+@date: (dernier changement)
+@Description (utilité et context
+d'utilisation)
+@
+@Test:
+@Type: (type de test réalisé pour la valider théorique ou Materiel)
+@Materiel:(Materiel sur lequel ce test a été réalisé avec succès , ce la comprend les composants autre que microcontroller auquel ex contrôleur moteur lecteur carte RFID ect...)
+@Validite:(Si la function a été validée par les test true ou false)
+@Fichier: (chemin du fichier de test pour cette fonction)
+@
+@
+**************************/
